@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:not(head, style) {
+  display: block;
+  margin: 0;
+}
+
+.container {
+  margin-inline: auto;
+  margin-top: 2.5vh;
+  width: 85vh;
+  height: 92vh;
+
+  border-inline-width: 1vw;
+  border-block-width: 1vh;
+  border-color: #024bbe;
+  border-style: solid;
+  background-color: #E85B13;
+}
+
+.title {
+  text-align: center;
+  font-family: "Faculty Glyphic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title:nth-of-type(5),
+.title:nth-of-type(6) {
+  display: none;
+}
+
+.title--invisible {
+  display: none;
+}
+
+.title--lowercase {
+  text-transform: lowercase;
+  font-size: 4rem;
+}
+
+.title--uppercase {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.img {
+  margin: auto;
+  width: 50%;
+
+  border-width: 25px;
+  border-color: #024bbe;
+  border-style: solid;
+}
+
+.date-place {
+  display: inline;
+
+  margin-inline: 2vh;
+
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+.date-place__date,
+.date-place__place {
+  text-align: center;
+}
+
+.date-place__date {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.date-place__place {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.footer {
+  margin-inline: auto;
+  margin-block: 1vh;
+  width: 85vh;
+
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+
+.footer__link {
+  display: inline;
+
+  color: #080934
+}
+
+.footer__link:hover {
+  color: #024bbe;
+}
+
