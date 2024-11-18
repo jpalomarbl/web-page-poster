@@ -88,6 +88,7 @@
 
   text-align: center;
   font-family: "Roboto", serif;
+  font-size: .7vw;
 }
 
 .footer__link {
@@ -122,9 +123,9 @@
 
   .title--top,
   .title--bottom {
-    font-size: clamp(13vw, 13.8vw, 16.1rem);
+    font-size: clamp(13.6vw, 13.8vw, 16.1rem);
     line-height: 0.8;
-    letter-spacing: -1rem;
+    letter-spacing: -1.2vw;
   }
 
   .title--top {
@@ -142,7 +143,7 @@
     display: inline-block;
     margin-block: auto;
 
-    font-size: clamp(10rem, 8.6vw, 9vw);
+    font-size: clamp(8.5vw, 8.6vw, 9vw);
     line-height: 0.8;
     color: #080934;
 
